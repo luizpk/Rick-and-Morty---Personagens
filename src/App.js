@@ -1,15 +1,25 @@
-import './App.css';
-import { Header } from './components/Header/Header';
+
+import { Home } from './components/Home/Home';
 import { GlobalStyled } from './GlobalStyle';
+import { Structure } from './Styled.js';
+
+
+
 
 function App() {
 
-  <GlobalStyled/>
   
+  <GlobalStyled/>
   return (
-    <div>
-      <Header/>
-    </div>
+   
+    <Structure >
+          
+        <Home/>
+            
+          
+       
+         
+    </Structure>
   );
 }
 
